@@ -51,3 +51,46 @@
 |target_9_7 |999           |0.7478522658348083|12  |
 |target_9_8 |995           |0.9168020486831664|36  |
 |target_10_1|999           |0.7449418306350708|11  |
+
+
+---------------------------
+
+15.02.2026 
+
+Экспресс-сравнение моделей (0007p.ipynb)
+|tcol       |model                          |AUC   |model2                         |AUC2  |model3                         |AUC3  |
+|-----------|-------------------------------|------|-------------------------------|------|-------------------------------|------|
+|target_1_1 |Logistic Regression            |0.4957|Extra Trees Classifier         |0.4949|CatBoost Classifier            |0.4449|
+|target_1_3 |Extra Trees Classifier         |0.9033|CatBoost Classifier            |0.8973|Random Forest Classifier       |0.8873|
+|target_1_4 |Random Forest Classifier       |0.8118|Ridge Classifier               |0.7623|Extra Trees Classifier         |0.7431|
+|target_2_1 |Extreme Gradient Boosting      |0.5449|Random Forest Classifier       |0.4862|CatBoost Classifier            |0.4855|
+|target_2_2 |Extreme Gradient Boosting      |0.836 |CatBoost Classifier            |0.836 |Logistic Regression            |0.8066|
+|target_2_4 |Extreme Gradient Boosting      |0.4696|Linear Discriminant Analysis   |0.4319|CatBoost Classifier            |0.4203|
+|target_2_6 |Logistic Regression            |0.1957|Extreme Gradient Boosting      |0.1732|Random Forest Classifier       |0.1645|
+|target_3_1 |Random Forest Classifier       |0.6272|Logistic Regression            |0.594 |CatBoost Classifier            |0.5823|
+|target_3_2 |CatBoost Classifier            |0.8496|Random Forest Classifier       |0.8322|Gradient Boosting Classifier   |0.8269|
+|target_3_3 |Ridge Classifier               |0.05  |Ada Boost Classifier           |0.05  |Linear Discriminant Analysis   |0.05  |
+|target_3_4 |Ridge Classifier               |0.3696|Logistic Regression            |0.3565|Extreme Gradient Boosting      |0.3529|
+|target_3_5 |Ridge Classifier               |0.05  |Ada Boost Classifier           |0.05  |Linear Discriminant Analysis   |0.05  |
+|target_4_1 |Extra Trees Classifier         |0.2616|CatBoost Classifier            |0.2594|Quadratic Discriminant Analysis|0.2087|
+|target_5_1 |Extreme Gradient Boosting      |0.4159|Quadratic Discriminant Analysis|0.3841|CatBoost Classifier            |0.3768|
+|target_5_2 |Decision Tree Classifier       |0.2   |Dummy Classifier               |0.2   |K Neighbors Classifier         |0.1935|
+|target_6_1 |Extreme Gradient Boosting      |0.2014|Dummy Classifier               |0.2   |K Neighbors Classifier         |0.1986|
+|target_6_2 |Extra Trees Classifier         |0.3348|Random Forest Classifier       |0.3145|CatBoost Classifier            |0.3116|
+|target_6_3 |CatBoost Classifier            |0.3928|Extra Trees Classifier         |0.3275|Extreme Gradient Boosting      |0.3232|
+|target_6_4 |Light Gradient Boosting Machine|0.4667|Logistic Regression            |0.4493|Extra Trees Classifier         |0.4413|
+|target_7_1 |Extreme Gradient Boosting      |0.6529|Light Gradient Boosting Machine|0.6367|Gradient Boosting Classifier   |0.6293|
+|target_7_2 |Ada Boost Classifier           |0.6825|Light Gradient Boosting Machine|0.6228|CatBoost Classifier            |0.6167|
+|target_7_3 |Ridge Classifier               |0.158 |Linear Discriminant Analysis   |0.1391|Naive Bayes                    |0.1   |
+|target_8_1 |Random Forest Classifier       |0.9307|CatBoost Classifier            |0.9286|Extreme Gradient Boosting      |0.9284|
+|target_8_2 |Random Forest Classifier       |0.6522|Extra Trees Classifier         |0.6514|CatBoost Classifier            |0.6352|
+|target_8_3 |Random Forest Classifier       |0.7544|Ridge Classifier               |0.6727|Extreme Gradient Boosting      |0.6647|
+|target_9_1 |Ridge Classifier               |0.2435|CatBoost Classifier            |0.2435|Naive Bayes                    |0.2304|
+|target_9_2 |Light Gradient Boosting Machine|0.7705|CatBoost Classifier            |0.7346|Extra Trees Classifier         |0.7345|
+|target_9_3 |SVM - Linear Kernel            |0.6969|Naive Bayes                    |0.6624|Quadratic Discriminant Analysis|0.6128|
+|target_9_4 |Ridge Classifier               |0.05  |Ada Boost Classifier           |0.05  |Linear Discriminant Analysis   |0.05  |
+|target_9_5 |Light Gradient Boosting Machine|0.3087|Ada Boost Classifier           |0.2986|Extreme Gradient Boosting      |0.2899|
+|target_9_6 |Logistic Regression            |0.6408|CatBoost Classifier            |0.6244|Ridge Classifier               |0.6165|
+|target_9_7 |Random Forest Classifier       |0.7342|CatBoost Classifier            |0.7293|Extra Trees Classifier         |0.7237|
+|target_9_8 |Logistic Regression            |0.7891|Extra Trees Classifier         |0.786 |Random Forest Classifier       |0.7628|
+|target_10_1|Gradient Boosting Classifier   |0.732 |CatBoost Classifier            |0.7173|Extra Trees Classifier         |0.6945|
